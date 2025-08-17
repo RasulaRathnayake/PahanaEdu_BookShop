@@ -1,0 +1,8 @@
+tests\DBTestRunner.class
+com\mycompany\pahanaedu_bookshop\JakartaRestConfiguration.class
+utils\DBconnection.class
+dao\UserDAO.class
+models\User.class
+com\mycompany\pahanaedu_bookshop\resources\JakartaEE10Resource.class
+services\AuthService.class
+controllers\AuthControllers.class
