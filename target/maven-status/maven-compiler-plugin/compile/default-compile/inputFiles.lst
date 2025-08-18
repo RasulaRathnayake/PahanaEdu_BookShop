@@ -1,8 +1,12 @@
 C:\Users\ugdin\Desktop\Assignment\project\PahanaEdu_BookShop\src\main\java\controllers\AuthControllers.java
+C:\Users\ugdin\Desktop\Assignment\project\PahanaEdu_BookShop\src\main\java\models\Customer.java
+C:\Users\ugdin\Desktop\Assignment\project\PahanaEdu_BookShop\src\main\java\dao\CustomerDAO.java
 C:\Users\ugdin\Desktop\Assignment\project\PahanaEdu_BookShop\src\main\java\utils\DBconnection.java
 C:\Users\ugdin\Desktop\Assignment\project\PahanaEdu_BookShop\src\main\java\com\mycompany\pahanaedu_bookshop\resources\JakartaEE10Resource.java
 C:\Users\ugdin\Desktop\Assignment\project\PahanaEdu_BookShop\src\main\java\models\User.java
 C:\Users\ugdin\Desktop\Assignment\project\PahanaEdu_BookShop\src\main\java\tests\DBTestRunner.java
+C:\Users\ugdin\Desktop\Assignment\project\PahanaEdu_BookShop\src\main\java\utils\EmailServices.java
+C:\Users\ugdin\Desktop\Assignment\project\PahanaEdu_BookShop\src\main\java\controllers\CustomerController.java
 C:\Users\ugdin\Desktop\Assignment\project\PahanaEdu_BookShop\src\main\java\dao\UserDAO.java
 C:\Users\ugdin\Desktop\Assignment\project\PahanaEdu_BookShop\src\main\java\services\AuthService.java
 C:\Users\ugdin\Desktop\Assignment\project\PahanaEdu_BookShop\src\main\java\com\mycompany\pahanaedu_bookshop\JakartaRestConfiguration.java
