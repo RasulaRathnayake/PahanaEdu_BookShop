@@ -1,13 +1,4 @@
-com\mycompany\pahanaedu_bookshop\JakartaRestConfiguration.class
-dao\CustomerDAO.class
-models\User.class
-com\mycompany\pahanaedu_bookshop\resources\JakartaEE10Resource.class
-utils\EmailServices.class
-controllers\AuthControllers.class
-controllers\CustomerController.class
-tests\DBTestRunner.class
-utils\DBconnection.class
-models\Customer.class
-utils\EmailServices$1.class
 dao\UserDAO.class
+models\User.class
+com\mycompany\pahanaedu_bookshop\JakartaRestConfiguration.class
 services\AuthService.class
