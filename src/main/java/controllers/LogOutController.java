@@ -4,10 +4,31 @@
  */
 package controllers;
 
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
 /**
- *
- * @author ugdin
+ * Handles logout by clearing session and redirecting to login.
  */
-public class LogOutController {
-    
+@WebServlet("/logout")
+public class LogOutController extends HttpServlet {
+  @Override
+  protected void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+
+    // end old session if any
+    var old = request.getSession(false);
+    if (old != null) old.invalidate();
+
+    // create a fresh session just to carry the flash message
+    var flash = request.getSession(true);
+    flash.setAttribute("flashSuccess", "You have logged out successfully");
+
+    response.sendRedirect(request.getContextPath() + "/jsp/login.jsp");
+  }
 }
+

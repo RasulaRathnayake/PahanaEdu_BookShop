@@ -32,7 +32,7 @@ public int createBill(Bills bill) throws SQLException {
     final String lockSql = "SELECT stock_quantity FROM items WHERE item_id=? FOR UPDATE";
     final String updSql  = "UPDATE items SET stock_quantity = stock_quantity - ? WHERE item_id=?";
 
-    try (Connection conn = DBConnection.getConnection()) {
+    try (Connection conn = DBconnection.getConnection()) {
         conn.setAutoCommit(false);
         try {
             // 1) Lock each item row and validate stock
