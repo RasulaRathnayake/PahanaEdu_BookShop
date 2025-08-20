@@ -508,12 +508,12 @@ td[colspan="6"] {
 }
 
 .alert.success {
-    background: linear-gradient(135deg, #48bb78, #38a169);
+/*    background: linear-gradient(135deg, #48bb78, #38a169);*/
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .alert.error {
-    background: linear-gradient(135deg, #f56565, #e53e3e);
+/*    background: linear-gradient(135deg, #f56565, #e53e3e);*/
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
