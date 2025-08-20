@@ -58,5 +58,5 @@ It supports **Admin** and **Cashier** roles, secure authentication with hashed p
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/PahanaEduBookShop.git
-cd PahanaEduBookShop
+git clone https://github.com/RasulaRathnayake/PahanaEdu_BookShop.git
+cd PahanaEdu_BookShop
