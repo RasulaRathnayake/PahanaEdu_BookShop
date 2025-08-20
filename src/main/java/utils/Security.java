@@ -8,6 +8,12 @@ package utils;
  *
  * @author ugdin
  */
+import jakarta.servlet.http.HttpServletRequest;
+
 public class Security {
-    
+  public static boolean isAdmin(HttpServletRequest req) {
+    Object u = req.getSession().getAttribute("user");
+    if (u == null) return false;
+    try { return "ADMIN".equals(((models.User)u).getRole()); } catch (Exception e) { return false; }
+  }
 }
